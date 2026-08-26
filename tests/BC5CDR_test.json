@@ -1,0 +1,1502 @@
+[
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "VTD consisted of bortezomib at a dose of 1 . 3 mg / m ( 2 ) and dexamethasone at a dose of 40 mg / day on days 1 , 8 , 15 , and 22 of a 35 - day cycle , with daily oral thalidomide at a dose of 100 mg / day .",
+        "output": "VTD [O] consisted [O] of [O] bortezomib [B] at [O] a [O] dose [O] of [O] 1 [O] . [O] 3 [O] mg [O] / [O] m [O] ( [O] 2 [O] ) [O] and [O] dexamethasone [B] at [O] a [O] dose [O] of [O] 40 [O] mg [O] / [O] day [O] on [O] days [O] 1 [O] , [O] 8 [O] , [O] 15 [O] , [O] and [O] 22 [O] of [O] a [O] 35 [O] - [O] day [O] cycle [O] , [O] with [O] daily [O] oral [O] thalidomide [B] at [O] a [O] dose [O] of [O] 100 [O] mg [O] / [O] day [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The findings indicate that thalidomide may be an option for patients who have failed other forms of therapy , provided close follow - up is maintained for development of peripheral neuropathy .",
+        "output": "The [O] findings [O] indicate [O] that [O] thalidomide [B] may [O] be [O] an [O] option [O] for [O] patients [O] who [O] have [O] failed [O] other [O] forms [O] of [O] therapy [O] , [O] provided [O] close [O] follow [O] - [O] up [O] is [O] maintained [O] for [O] development [O] of [O] peripheral [B] neuropathy [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Hypercalcemia , arrhythmia , and mood stabilizers .",
+        "output": "Hypercalcemia [B] , [O] arrhythmia [B] , [O] and [O] mood [O] stabilizers [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Six of the 14 patients died with congestive heart failure .",
+        "output": "Six [O] of [O] the [O] 14 [O] patients [O] died [O] with [O] congestive [B] heart [I] failure [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Three hours later the patient felt better , the frequency of PVC reduced to 4 - 5 x / minute and on the third day ECG was normal , potassium level was 3 . 34 meq / L .",
+        "output": "Three [O] hours [O] later [O] the [O] patient [O] felt [O] better [O] , [O] the [O] frequency [O] of [O] PVC [B] reduced [O] to [O] 4 [O] - [O] 5 [O] x [O] / [O] minute [O] and [O] on [O] the [O] third [O] day [O] ECG [O] was [O] normal [O] , [O] potassium [B] level [O] was [O] 3 [O] . [O] 34 [O] meq [O] / [O] L [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Carotid arteries , vena cava , and sympathetic ganglia from LNNA rats had higher basal levels of superoxide compared with those from control rats .",
+        "output": "Carotid [O] arteries [O] , [O] vena [O] cava [O] , [O] and [O] sympathetic [O] ganglia [O] from [O] LNNA [B] rats [O] had [O] higher [O] basal [O] levels [O] of [O] superoxide [B] compared [O] with [O] those [O] from [O] control [O] rats [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Does domperidone potentiate mirtazapine - associated restless legs syndrome ?",
+        "output": "Does [O] domperidone [B] potentiate [O] mirtazapine [B] - [O] associated [O] restless [B] legs [I] syndrome [I] ? [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "In these animals , abecarnil produced a paralleled dose - dependent ( 0 . 05 - 1 mg / kg i . p . ) reduction of both motor behavior and cortical [ 35S ] TBPS binding .",
+        "output": "In [O] these [O] animals [O] , [O] abecarnil [B] produced [O] a [O] paralleled [O] dose [O] - [O] dependent [O] ( [O] 0 [O] . [O] 05 [O] - [O] 1 [O] mg [O] / [O] kg [O] i [O] . [O] p [O] . [O] ) [O] reduction [O] of [O] both [O] motor [O] behavior [O] and [O] cortical [O] [ [O] 35S [O] ] [O] TBPS [O] binding [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Hypertension in neuroblastoma induced by imipramine .",
+        "output": "Hypertension [B] in [O] neuroblastoma [B] induced [O] by [O] imipramine [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "All adenosine receptor agonists significantly decreased the locomotor activity in mice , and the effects were dose - dependent .",
+        "output": "All [O] adenosine [B] receptor [O] agonists [O] significantly [O] decreased [B] the [I] locomotor [I] activity [I] in [O] mice [O] , [O] and [O] the [O] effects [O] were [O] dose [O] - [O] dependent [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Renal angiotensin II receptor type 2 ( AT2R ) gene expression in adult offspring was reduced by PCE , whereas the renal angiotensin II receptor type 1a ( AT1aR ) / AT2R expression ratio was increased .",
+        "output": "Renal [O] angiotensin [B] II [I] receptor [O] type [O] 2 [O] ( [O] AT2R [O] ) [O] gene [O] expression [O] in [O] adult [O] offspring [O] was [O] reduced [O] by [O] PCE [O] , [O] whereas [O] the [O] renal [O] angiotensin [B] II [I] receptor [O] type [O] 1a [O] ( [O] AT1aR [O] ) [O] / [O] AT2R [O] expression [O] ratio [O] was [O] increased [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "At these high doses of CYA , serious cardiotoxicity may occur , but definitive risk factors for the development of such cardiotoxicity have not been described .",
+        "output": "At [O] these [O] high [O] doses [O] of [O] CYA [B] , [O] serious [O] cardiotoxicity [B] may [O] occur [O] , [O] but [O] definitive [O] risk [O] factors [O] for [O] the [O] development [O] of [O] such [O] cardiotoxicity [B] have [O] not [O] been [O] described [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "With this model we investigated the effect of chronic doxorubicin administration on the ECG of freely moving BALB / c mice and the efficacy of ICRF - 187 as a protective agent .",
+        "output": "With [O] this [O] model [O] we [O] investigated [O] the [O] effect [O] of [O] chronic [O] doxorubicin [B] administration [O] on [O] the [O] ECG [O] of [O] freely [O] moving [O] BALB [O] / [O] c [O] mice [O] and [O] the [O] efficacy [O] of [O] ICRF [B] - [I] 187 [I] as [O] a [O] protective [O] agent [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "TNA was discontinued .",
+        "output": "TNA [B] was [O] discontinued [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Two patients developed hemolytic - uremic syndrome ( HUS ) .",
+        "output": "Two [O] patients [O] developed [O] hemolytic [B] - [I] uremic [I] syndrome [I] ( [O] HUS [B] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Effects of ginsenosides on opioid - induced hyperalgesia in mice .",
+        "output": "Effects [O] of [O] ginsenosides [B] on [O] opioid [O] - [O] induced [O] hyperalgesia [B] in [O] mice [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "METHODS : We performed a systematic review of published and unpublished data from cohorts with stroke or TIA to compare the presence of MB in : ( 1 ) antithrombotic users vs nonantithrombotic users with ICH ; ( 2 ) antithrombotic users vs nonusers with IS / TIA ; and ( 3 ) ICH vs ischemic events stratified by antithrombotic use .",
+        "output": "METHODS [O] : [O] We [O] performed [O] a [O] systematic [O] review [O] of [O] published [O] and [O] unpublished [O] data [O] from [O] cohorts [O] with [O] stroke [B] or [O] TIA [B] to [O] compare [O] the [O] presence [O] of [O] MB [B] in [O] : [O] ( [O] 1 [O] ) [O] antithrombotic [O] users [O] vs [O] nonantithrombotic [O] users [O] with [O] ICH [B] ; [O] ( [O] 2 [O] ) [O] antithrombotic [O] users [O] vs [O] nonusers [O] with [O] IS [B] / [O] TIA [B] ; [O] and [O] ( [O] 3 [O] ) [O] ICH [B] vs [O] ischemic [B] events [O] stratified [O] by [O] antithrombotic [O] use [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Thus , dronedarone and amiodarone displayed a similar level of antiadrenergic effect and did not impair the resting left ventricular function .",
+        "output": "Thus [O] , [O] dronedarone [B] and [O] amiodarone [B] displayed [O] a [O] similar [O] level [O] of [O] antiadrenergic [O] effect [O] and [O] did [O] not [O] impair [O] the [O] resting [O] left [O] ventricular [O] function [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "IMPLICATIONS : This case documents a patient who developed dizziness with downbeating nystagmus while receiving a relatively large dose of IV patient - controlled analgesia morphine .",
+        "output": "IMPLICATIONS [O] : [O] This [O] case [O] documents [O] a [O] patient [O] who [O] developed [O] dizziness [B] with [O] downbeating [B] nystagmus [I] while [O] receiving [O] a [O] relatively [O] large [O] dose [O] of [O] IV [O] patient [O] - [O] controlled [O] analgesia [O] morphine [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "RESULTS : Of the 246 admitted patients , 34 ( 14 % ) met CK - MB criteria for MI and 38 ( 16 % ) had cTnI elevations .",
+        "output": "RESULTS [O] : [O] Of [O] the [O] 246 [O] admitted [O] patients [O] , [O] 34 [O] ( [O] 14 [O] % [O] ) [O] met [O] CK [O] - [O] MB [O] criteria [O] for [O] MI [B] and [O] 38 [O] ( [O] 16 [O] % [O] ) [O] had [O] cTnI [O] elevations [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "D - ribose in the multiple doses of 200 mg / kg did not influence ADR cardiotoxicity .",
+        "output": "D [B] - [I] ribose [I] in [O] the [O] multiple [O] doses [O] of [O] 200 [O] mg [O] / [O] kg [O] did [O] not [O] influence [O] ADR [B] cardiotoxicity [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "METHODS : Six groups of 6 BALB / c mice were treated with saline , DOX alone or DOX ( 4 mg / kg i . v . ) preceded by monoHER ( 500 mg / kg i . p . ) with an interval of 10 , 30 , 60 or 120 min .",
+        "output": "METHODS [O] : [O] Six [O] groups [O] of [O] 6 [O] BALB [O] / [O] c [O] mice [O] were [O] treated [O] with [O] saline [O] , [O] DOX [B] alone [O] or [O] DOX [B] ( [O] 4 [O] mg [O] / [O] kg [O] i [O] . [O] v [O] . [O] ) [O] preceded [O] by [O] monoHER [B] ( [O] 500 [O] mg [O] / [O] kg [O] i [O] . [O] p [O] . [O] ) [O] with [O] an [O] interval [O] of [O] 10 [O] , [O] 30 [O] , [O] 60 [O] or [O] 120 [O] min [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "We report a case of 54 - year - old woman with medical history of mitral valve prolapse and migraines , who was admitted to the hospital for substernal chest pain and electrocardiogram demonstrated 1 / 2 mm ST - segment elevation in leads II , III , aVF , V5 , and V6 and positive troponin I .",
+        "output": "We [O] report [O] a [O] case [O] of [O] 54 [O] - [O] year [O] - [O] old [O] woman [O] with [O] medical [O] history [O] of [O] mitral [B] valve [I] prolapse [I] and [O] migraines [B] , [O] who [O] was [O] admitted [O] to [O] the [O] hospital [O] for [O] substernal [O] chest [B] pain [I] and [O] electrocardiogram [O] demonstrated [O] 1 [O] / [O] 2 [O] mm [O] ST [O] - [O] segment [O] elevation [O] in [O] leads [O] II [O] , [O] III [O] , [O] aVF [O] , [O] V5 [O] , [O] and [O] V6 [O] and [O] positive [O] troponin [O] I [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Although the patient recovered , he experienced permanent vision and hearing loss , as well as end - stage renal disease .",
+        "output": "Although [O] the [O] patient [O] recovered [O] , [O] he [O] experienced [O] permanent [O] vision [B] and [I] hearing [I] loss [I] , [O] as [O] well [O] as [O] end [B] - [I] stage [I] renal [I] disease [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Attenuation of nephrotoxicity by a novel lipid nanosphere ( NS - 718 ) incorporating amphotericin B .",
+        "output": "Attenuation [O] of [O] nephrotoxicity [B] by [O] a [O] novel [O] lipid [O] nanosphere [O] ( [O] NS [O] - [O] 718 [O] ) [O] incorporating [O] amphotericin [B] B [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Antioxidant effects of bovine lactoferrin on dexamethasone - induced hypertension in rat .",
+        "output": "Antioxidant [O] effects [O] of [O] bovine [O] lactoferrin [O] on [O] dexamethasone [B] - [O] induced [O] hypertension [B] in [O] rat [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Specific gravity was greater in the 15 / HTN group ( 1 . 043 + / - 0 . 002 ) versus the 90 / HTN ( 1 . 036 + / - 0 . 003 ) and control ( 1 . 037 + / - 0 . 003 ) groups .",
+        "output": "Specific [O] gravity [O] was [O] greater [O] in [O] the [O] 15 [O] / [O] HTN [B] group [O] ( [O] 1 [O] . [O] 043 [O] + [O] / [O] - [O] 0 [O] . [O] 002 [O] ) [O] versus [O] the [O] 90 [O] / [O] HTN [B] ( [O] 1 [O] . [O] 036 [O] + [O] / [O] - [O] 0 [O] . [O] 003 [O] ) [O] and [O] control [O] ( [O] 1 [O] . [O] 037 [O] + [O] / [O] - [O] 0 [O] . [O] 003 [O] ) [O] groups [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Increase in intragastric pressure during suxamethonium - induced muscle fasciculations in children : inhibition by alfentanil .",
+        "output": "Increase [O] in [O] intragastric [O] pressure [O] during [O] suxamethonium [B] - [O] induced [O] muscle [B] fasciculations [I] in [O] children [O] : [O] inhibition [O] by [O] alfentanil [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "CONCLUSIONS : Precurarization with 0 . 04 mg / kg rocuronium was the optimal dose considering the reduction in the incidence and severity of fasciculation and myalgia with acceptable onset time , and the safe and effective precurarization .",
+        "output": "CONCLUSIONS [O] : [O] Precurarization [O] with [O] 0 [O] . [O] 04 [O] mg [O] / [O] kg [O] rocuronium [B] was [O] the [O] optimal [O] dose [O] considering [O] the [O] reduction [O] in [O] the [O] incidence [O] and [O] severity [O] of [O] fasciculation [B] and [O] myalgia [B] with [O] acceptable [O] onset [O] time [O] , [O] and [O] the [O] safe [O] and [O] effective [O] precurarization [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "These findings are strong support for the adrenaline - hypertension hypothesis in man .",
+        "output": "These [O] findings [O] are [O] strong [O] support [O] for [O] the [O] adrenaline [B] - [O] hypertension [B] hypothesis [O] in [O] man [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Two hours after the sixth dose of TNA , she had an episode of generalized tonic clonic convulsions .",
+        "output": "Two [O] hours [O] after [O] the [O] sixth [O] dose [O] of [O] TNA [B] , [O] she [O] had [O] an [O] episode [O] of [O] generalized [O] tonic [B] clonic [I] convulsions [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "BACKGROUND : Acetaminophen - induced hepatotoxicity is the most common cause of acute liver failure ( ALF ) in the UK .",
+        "output": "BACKGROUND [O] : [O] Acetaminophen [B] - [O] induced [O] hepatotoxicity [B] is [O] the [O] most [O] common [O] cause [O] of [O] acute [B] liver [I] failure [I] ( [O] ALF [B] ) [O] in [O] the [O] UK [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Erdosteine administration with VCM injections caused significantly decreased renal MDA and urinary NAG excretion , and increased SOD activity , but not CAT activity in renal tissue when compared with VCM alone .",
+        "output": "Erdosteine [B] administration [O] with [O] VCM [B] injections [O] caused [O] significantly [O] decreased [O] renal [O] MDA [B] and [O] urinary [O] NAG [O] excretion [O] , [O] and [O] increased [O] SOD [O] activity [O] , [O] but [O] not [O] CAT [O] activity [O] in [O] renal [O] tissue [O] when [O] compared [O] with [O] VCM [B] alone [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Further clinical evaluation in patients with confirmed meningitis is warranted .",
+        "output": "Further [O] clinical [O] evaluation [O] in [O] patients [O] with [O] confirmed [O] meningitis [B] is [O] warranted [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Furthermore , dexamethasone - induced ocular hypertension was associated with chronic ER stress of the trabecular meshwork ( TM ) .",
+        "output": "Furthermore [O] , [O] dexamethasone [B] - [O] induced [O] ocular [B] hypertension [I] was [O] associated [O] with [O] chronic [O] ER [O] stress [O] of [O] the [O] trabecular [O] meshwork [O] ( [O] TM [O] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The patient ' s observations were within normal limits , he was administered oxygen via a face mask and glyceryl trinitrate ( GTN ) .",
+        "output": "The [O] patient [O] ' [O] s [O] observations [O] were [O] within [O] normal [O] limits [O] , [O] he [O] was [O] administered [O] oxygen [B] via [O] a [O] face [O] mask [O] and [O] glyceryl [B] trinitrate [I] ( [O] GTN [B] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Seventy percent of rats given 250 ppm quinacrine hydrochloride and 1 , 000 ppm sodium nitrite simultaneously in the diet had thrombosis of the atria of the heart , while untreated control rats in this laboratory did not have atrial thrombosis .",
+        "output": "Seventy [O] percent [O] of [O] rats [O] given [O] 250 [O] ppm [O] quinacrine [B] hydrochloride [I] and [O] 1 [O] , [O] 000 [O] ppm [O] sodium [B] nitrite [I] simultaneously [O] in [O] the [O] diet [O] had [O] thrombosis [B] of [O] the [O] atria [O] of [O] the [O] heart [O] , [O] while [O] untreated [O] control [O] rats [O] in [O] this [O] laboratory [O] did [O] not [O] have [O] atrial [B] thrombosis [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Three minutes later , groups were challenged with vehicle or flumazenil 5 or 10 mg / kg IP .",
+        "output": "Three [O] minutes [O] later [O] , [O] groups [O] were [O] challenged [O] with [O] vehicle [O] or [O] flumazenil [B] 5 [O] or [O] 10 [O] mg [O] / [O] kg [O] IP [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "These results suggest the involvement of quinine - sensitive but not 4 - aminopyridine - sensitive K ( + ) - channels in morphine reward .",
+        "output": "These [O] results [O] suggest [O] the [O] involvement [O] of [O] quinine [B] - [O] sensitive [O] but [O] not [O] 4 [B] - [I] aminopyridine [I] - [O] sensitive [O] K [B] ( [O] + [O] ) [O] - [O] channels [O] in [O] morphine [B] reward [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "With 100 micrograms denopamine , almost complete restoration of cardiac performance was attained , associated with a slight increase in heart rate .",
+        "output": "With [O] 100 [O] micrograms [O] denopamine [B] , [O] almost [O] complete [O] restoration [O] of [O] cardiac [O] performance [O] was [O] attained [O] , [O] associated [O] with [O] a [O] slight [O] increase [O] in [O] heart [O] rate [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Vasopressin as a possible contributor to hypertension .",
+        "output": "Vasopressin [B] as [O] a [O] possible [O] contributor [O] to [O] hypertension [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Within 2 to 3 weeks of initially effective and well - tolerated treatment , 3 patients with a history of rosacea and 1 with a history of acne experienced sudden worsening with pustular rosaceiform lesions .",
+        "output": "Within [O] 2 [O] to [O] 3 [O] weeks [O] of [O] initially [O] effective [O] and [O] well [O] - [O] tolerated [O] treatment [O] , [O] 3 [O] patients [O] with [O] a [O] history [O] of [O] rosacea [B] and [O] 1 [O] with [O] a [O] history [O] of [O] acne [B] experienced [O] sudden [O] worsening [O] with [O] pustular [O] rosaceiform [O] lesions [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "A typical multisystem clinical pattern precedes the manifestations of hepatic injury .",
+        "output": "A [O] typical [O] multisystem [O] clinical [O] pattern [O] precedes [O] the [O] manifestations [O] of [O] hepatic [B] injury [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "There was also an excess of MB in warfarin users vs nonusers with ICH ( OR , 2 . 7 ; 95 % CI , 1 . 6 - 4 . 4 ; P < 0 . 001 ) but none in warfarin users with IS / TIA ( OR , 1 . 3 ; 95 % CI , 0 . 9 - 1 . 7 ; P = 0 . 33 ; P difference = 0 . 01 ) .",
+        "output": "There [O] was [O] also [O] an [O] excess [O] of [O] MB [B] in [O] warfarin [B] users [O] vs [O] nonusers [O] with [O] ICH [B] ( [O] OR [O] , [O] 2 [O] . [O] 7 [O] ; [O] 95 [O] % [O] CI [O] , [O] 1 [O] . [O] 6 [O] - [O] 4 [O] . [O] 4 [O] ; [O] P [O] < [O] 0 [O] . [O] 001 [O] ) [O] but [O] none [O] in [O] warfarin [B] users [O] with [O] IS [B] / [O] TIA [B] ( [O] OR [O] , [O] 1 [O] . [O] 3 [O] ; [O] 95 [O] % [O] CI [O] , [O] 0 [O] . [O] 9 [O] - [O] 1 [O] . [O] 7 [O] ; [O] P [O] = [O] 0 [O] . [O] 33 [O] ; [O] P [O] difference [O] = [O] 0 [O] . [O] 01 [O] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "BACKGROUND : The aim of the study was to investigate the antihypertensive effects of angiotensin II type - 1 receptor blocker , losartan , and its potential in slowing down renal disease progression in spontaneously hypertensive rats ( SHR ) with adriamycin ( ADR ) nephropathy .",
+        "output": "BACKGROUND [O] : [O] The [O] aim [O] of [O] the [O] study [O] was [O] to [O] investigate [O] the [O] antihypertensive [O] effects [O] of [O] angiotensin [B] II [I] type [O] - [O] 1 [O] receptor [O] blocker [O] , [O] losartan [B] , [O] and [O] its [O] potential [O] in [O] slowing [O] down [O] renal [B] disease [I] progression [O] in [O] spontaneously [O] hypertensive [B] rats [O] ( [O] SHR [O] ) [O] with [O] adriamycin [B] ( [O] ADR [B] ) [O] nephropathy [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "A male in his sixties with no history of cardiac chest pain awoke with chest pain following an afternoon sleep .",
+        "output": "A [O] male [O] in [O] his [O] sixties [O] with [O] no [O] history [O] of [O] cardiac [O] chest [B] pain [I] awoke [O] with [O] chest [B] pain [I] following [O] an [O] afternoon [O] sleep [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Vinorelbine - related cardiac events concern about 1 % of treated patients in clinical trials .",
+        "output": "Vinorelbine [B] - [O] related [O] cardiac [O] events [O] concern [O] about [O] 1 [O] % [O] of [O] treated [O] patients [O] in [O] clinical [O] trials [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "AUTHORS ' CONCLUSIONS : HT is not indicated for the routine management of chronic disease .",
+        "output": "AUTHORS [O] ' [O] CONCLUSIONS [O] : [O] HT [O] is [O] not [O] indicated [O] for [O] the [O] routine [O] management [O] of [O] chronic [B] disease [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The clinical effects of heparin are meritorious , but side effects do exist .",
+        "output": "The [O] clinical [O] effects [O] of [O] heparin [B] are [O] meritorious [O] , [O] but [O] side [O] effects [O] do [O] exist [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "A marked corticomedullary gradient of prostaglandin synthesis was observed in all groups .",
+        "output": "A [O] marked [O] corticomedullary [O] gradient [O] of [O] prostaglandin [B] synthesis [O] was [O] observed [O] in [O] all [O] groups [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Reported herein is an autopsy case of valvular heart disease , in a patient who developed a lung mass ( 1 . 5 cm in diameter ) and proteinuria ( 2 . 76 g / day ) after treatment with amiodarone for a long time .",
+        "output": "Reported [O] herein [O] is [O] an [O] autopsy [O] case [O] of [O] valvular [B] heart [I] disease [I] , [O] in [O] a [O] patient [O] who [O] developed [O] a [O] lung [B] mass [I] ( [O] 1 [O] . [O] 5 [O] cm [O] in [O] diameter [O] ) [O] and [O] proteinuria [B] ( [O] 2 [O] . [O] 76 [O] g [O] / [O] day [O] ) [O] after [O] treatment [O] with [O] amiodarone [B] for [O] a [O] long [O] time [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The influence of adenosine receptor agonists and antagonists on cocaine - and amphetamine - induced hyperactivity was examined in mice .",
+        "output": "The [O] influence [O] of [O] adenosine [B] receptor [O] agonists [O] and [O] antagonists [O] on [O] cocaine [B] - [O] and [O] amphetamine [B] - [O] induced [O] hyperactivity [B] was [O] examined [O] in [O] mice [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "OBJECTIVE : To assess outcomes based on troponin positivity in patients with cocaine chest pain admitted for exclusion of MI .",
+        "output": "OBJECTIVE [O] : [O] To [O] assess [O] outcomes [O] based [O] on [O] troponin [O] positivity [O] in [O] patients [O] with [O] cocaine [B] chest [B] pain [I] admitted [O] for [O] exclusion [O] of [O] MI [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Posttransplant anemia : the role of sirolimus .",
+        "output": "Posttransplant [O] anemia [B] : [O] the [O] role [O] of [O] sirolimus [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "To our knowledge , this is the first report of nicergoline - associated AIN .",
+        "output": "To [O] our [O] knowledge [O] , [O] this [O] is [O] the [O] first [O] report [O] of [O] nicergoline [B] - [O] associated [O] AIN [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "A new RCT and meta - analysis suggest that the risk for hemorrhagic strokes in women is not statistically significantly increased .",
+        "output": "A [O] new [O] RCT [O] and [O] meta [O] - [O] analysis [O] suggest [O] that [O] the [O] risk [O] for [O] hemorrhagic [B] strokes [I] in [O] women [O] is [O] not [O] statistically [O] significantly [O] increased [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Venous pain occurred in 68 % of patients and 50 % had redness , pain or swelling related to the injection site , in some cases lasting up to three weeks after anaesthesia .",
+        "output": "Venous [O] pain [B] occurred [O] in [O] 68 [O] % [O] of [O] patients [O] and [O] 50 [O] % [O] had [O] redness [O] , [O] pain [B] or [O] swelling [B] related [O] to [O] the [O] injection [O] site [O] , [O] in [O] some [O] cases [O] lasting [O] up [O] to [O] three [O] weeks [O] after [O] anaesthesia [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Delirium in an elderly woman possibly associated with administration of misoprostol .",
+        "output": "Delirium [B] in [O] an [O] elderly [O] woman [O] possibly [O] associated [O] with [O] administration [O] of [O] misoprostol [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Statistical analysis was carried out using Kruskal - Wallis test for hyper locomotion , and one - way ANOVA for climbing and catalepsy tests .",
+        "output": "Statistical [O] analysis [O] was [O] carried [O] out [O] using [O] Kruskal [O] - [O] Wallis [O] test [O] for [O] hyper [B] locomotion [O] , [O] and [O] one [O] - [O] way [O] ANOVA [O] for [O] climbing [O] and [O] catalepsy [B] tests [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Randomized comparison of olanzapine versus risperidone for the treatment of first - episode schizophrenia : 4 - month outcomes .",
+        "output": "Randomized [O] comparison [O] of [O] olanzapine [B] versus [O] risperidone [B] for [O] the [O] treatment [O] of [O] first [O] - [O] episode [O] schizophrenia [B] : [O] 4 [O] - [O] month [O] outcomes [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Increased secretion of vasopressin from neurohypophysis also promotes the function of the hormone as a pathogenetic factor in hypertension .",
+        "output": "Increased [O] secretion [O] of [O] vasopressin [B] from [O] neurohypophysis [O] also [O] promotes [O] the [O] function [O] of [O] the [O] hormone [O] as [O] a [O] pathogenetic [O] factor [O] in [O] hypertension [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Subgroups presumed to be at higher risk for ACE inhibitor intolerance ( blood pressure , < 120 mm Hg ; creatinine , > or = 132 . 6 micromol / L [ > or = 1 . 5 mg / dL ] ; age , > or = 70 years ; and patients with diabetes ) generally tolerated the high - dose strategy .",
+        "output": "Subgroups [O] presumed [O] to [O] be [O] at [O] higher [O] risk [O] for [O] ACE [B] inhibitor [I] intolerance [O] ( [O] blood [O] pressure [O] , [O] < [O] 120 [O] mm [O] Hg [O] ; [O] creatinine [B] , [O] > [O] or [O] = [O] 132 [O] . [O] 6 [O] micromol [O] / [O] L [O] [ [O] > [O] or [O] = [O] 1 [O] . [O] 5 [O] mg [O] / [O] dL [O] ] [O] ; [O] age [O] , [O] > [O] or [O] = [O] 70 [O] years [O] ; [O] and [O] patients [O] with [O] diabetes [B] ) [O] generally [O] tolerated [O] the [O] high [O] - [O] dose [O] strategy [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Therefore , it is suggested that the administration of PS enhances the toxicity of AMNS on the glomerulus and readily produces progressive FSGS in rats resulting in the end - stage renal disease .",
+        "output": "Therefore [O] , [O] it [O] is [O] suggested [O] that [O] the [O] administration [O] of [O] PS [B] enhances [O] the [O] toxicity [B] of [O] AMNS [B] on [O] the [O] glomerulus [O] and [O] readily [O] produces [O] progressive [O] FSGS [B] in [O] rats [O] resulting [O] in [O] the [O] end [B] - [I] stage [I] renal [I] disease [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "In this article , we report a patient with SRC induced by tacrolimus and corticosteroids .",
+        "output": "In [O] this [O] article [O] , [O] we [O] report [O] a [O] patient [O] with [O] SRC [B] induced [O] by [O] tacrolimus [B] and [O] corticosteroids [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The present results demonstrate that CCK - 8 attenuates the effect of morphine on hippocampal LTP through CCK2 receptors and suggest an ameliorative function of CCK - 8 on morphine - induced memory impairment .",
+        "output": "The [O] present [O] results [O] demonstrate [O] that [O] CCK [B] - [I] 8 [I] attenuates [O] the [O] effect [O] of [O] morphine [B] on [O] hippocampal [O] LTP [O] through [O] CCK2 [O] receptors [O] and [O] suggest [O] an [O] ameliorative [O] function [O] of [O] CCK [B] - [I] 8 [I] on [O] morphine [B] - [O] induced [O] memory [B] impairment [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "A significant correlation was observed between serum sFas levels and aspartate aminotransferase ( r = 0 . 613 , P < 0 . 01 ) .",
+        "output": "A [O] significant [O] correlation [O] was [O] observed [O] between [O] serum [O] sFas [O] levels [O] and [O] aspartate [B] aminotransferase [O] ( [O] r [O] = [O] 0 [O] . [O] 613 [O] , [O] P [O] < [O] 0 [O] . [O] 01 [O] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The aim of our study was to re - examine the association between risk of VTE and OC use with a different study design and analysis to avoid some of the bias and confounding of the earlier studies .",
+        "output": "The [O] aim [O] of [O] our [O] study [O] was [O] to [O] re [O] - [O] examine [O] the [O] association [O] between [O] risk [O] of [O] VTE [B] and [O] OC [B] use [O] with [O] a [O] different [O] study [O] design [O] and [O] analysis [O] to [O] avoid [O] some [O] of [O] the [O] bias [O] and [O] confounding [O] of [O] the [O] earlier [O] studies [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "METHODS : Stage IIIb or IV NSCLC patients , with two or fewer prior chemotherapy regimens , one platinum based ( stratum 1 ) or both chemotherapy and epidermal growth factor receptor tyrosine kinase inhibitors ( stratum 2 ) , received RAD001 10 mg / day until progression or unacceptable toxicity .",
+        "output": "METHODS [O] : [O] Stage [O] IIIb [O] or [O] IV [O] NSCLC [B] patients [O] , [O] with [O] two [O] or [O] fewer [O] prior [O] chemotherapy [O] regimens [O] , [O] one [O] platinum [B] based [O] ( [O] stratum [O] 1 [O] ) [O] or [O] both [O] chemotherapy [O] and [O] epidermal [O] growth [O] factor [O] receptor [O] tyrosine [B] kinase [O] inhibitors [O] ( [O] stratum [O] 2 [O] ) [O] , [O] received [O] RAD001 [B] 10 [O] mg [O] / [O] day [O] until [O] progression [O] or [O] unacceptable [O] toxicity [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Systolic BP in the PAN group was significantly high at 4 , 14 and 20 weeks , but was normal in the PAN / temocapril group .",
+        "output": "Systolic [O] BP [O] in [O] the [O] PAN [B] group [O] was [O] significantly [O] high [O] at [O] 4 [O] , [O] 14 [O] and [O] 20 [O] weeks [O] , [O] but [O] was [O] normal [O] in [O] the [O] PAN [B] / [O] temocapril [B] group [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Two - dimensional speckle tracking echocardiography combined with high - sensitive cardiac troponin T in early detection and prediction of cardiotoxicity during epirubicine - based chemotherapy .",
+        "output": "Two [O] - [O] dimensional [O] speckle [O] tracking [O] echocardiography [O] combined [O] with [O] high [O] - [O] sensitive [O] cardiac [O] troponin [O] T [O] in [O] early [O] detection [O] and [O] prediction [O] of [O] cardiotoxicity [B] during [O] epirubicine [B] - [O] based [O] chemotherapy [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Piperacillin - induced encephalopathy should be considered in any uremic patients with unexplained neurological manifestations .",
+        "output": "Piperacillin [B] - [O] induced [O] encephalopathy [B] should [O] be [O] considered [O] in [O] any [O] uremic [B] patients [O] with [O] unexplained [O] neurological [O] manifestations [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Propylthiouracil - induced hepatic damage .",
+        "output": "Propylthiouracil [B] - [O] induced [O] hepatic [B] damage [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Ethambutol is known to cause optic neuropathy and , more rarely , axonal polyneuropathy .",
+        "output": "Ethambutol [B] is [O] known [O] to [O] cause [O] optic [B] neuropathy [I] and [O] , [O] more [O] rarely [O] , [O] axonal [O] polyneuropathy [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The diagnosis of metronidazole toxicity was made by the MRI findings and supported clinically .",
+        "output": "The [O] diagnosis [O] of [O] metronidazole [B] toxicity [B] was [O] made [O] by [O] the [O] MRI [O] findings [O] and [O] supported [O] clinically [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Widespread cognitive disorders , such as delirium , have not been previously linked with high blood levels of SSRIs .",
+        "output": "Widespread [O] cognitive [B] disorders [I] , [O] such [O] as [O] delirium [B] , [O] have [O] not [O] been [O] previously [O] linked [O] with [O] high [O] blood [O] levels [O] of [O] SSRIs [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "These patients had a second event of cardiac arrest , resulting in death , within 10 to 60 minutes .",
+        "output": "These [O] patients [O] had [O] a [O] second [O] event [O] of [O] cardiac [B] arrest [I] , [O] resulting [O] in [O] death [O] , [O] within [O] 10 [O] to [O] 60 [O] minutes [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "For PCI , argatroban has not been investigated in hepatically impaired patients ; dose adjustment is unnecessary for adult age , sex , race / ethnicity or obesity , and lesser doses may be adequate with concurrent glycoprotein IIb / IIIa inhibition .",
+        "output": "For [O] PCI [O] , [O] argatroban [B] has [O] not [O] been [O] investigated [O] in [O] hepatically [O] impaired [O] patients [O] ; [O] dose [O] adjustment [O] is [O] unnecessary [O] for [O] adult [O] age [O] , [O] sex [O] , [O] race [O] / [O] ethnicity [O] or [O] obesity [B] , [O] and [O] lesser [O] doses [O] may [O] be [O] adequate [O] with [O] concurrent [O] glycoprotein [O] IIb [O] / [O] IIIa [O] inhibition [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Nelarabine neurotoxicity with concurrent intrathecal chemotherapy : Case report and review of literature .",
+        "output": "Nelarabine [B] neurotoxicity [B] with [O] concurrent [O] intrathecal [O] chemotherapy [O] : [O] Case [O] report [O] and [O] review [O] of [O] literature [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Patients taking clozapine and olanzapine must be examined for insulin resistance and its consequences .",
+        "output": "Patients [O] taking [O] clozapine [B] and [O] olanzapine [B] must [O] be [O] examined [O] for [O] insulin [B] resistance [I] and [O] its [O] consequences [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Procaterol , a new beta - 2 adrenoceptor stimulant , was studied in a double - blind , placebo - controlled , cross - over trial in patients with bronchial asthma .",
+        "output": "Procaterol [B] , [O] a [O] new [O] beta [O] - [O] 2 [O] adrenoceptor [O] stimulant [O] , [O] was [O] studied [O] in [O] a [O] double [O] - [O] blind [O] , [O] placebo [O] - [O] controlled [O] , [O] cross [O] - [O] over [O] trial [O] in [O] patients [O] with [O] bronchial [B] asthma [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "RESULTS : Twenty - nine patients were assessable for response , and 35 patients were assessable for toxicity .",
+        "output": "RESULTS [O] : [O] Twenty [O] - [O] nine [O] patients [O] were [O] assessable [O] for [O] response [O] , [O] and [O] 35 [O] patients [O] were [O] assessable [O] for [O] toxicity [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Ventricular arrhythmias were primarily observed in the C + E group , in which four of eight dogs experienced ventricular tachycardia .",
+        "output": "Ventricular [B] arrhythmias [I] were [O] primarily [O] observed [O] in [O] the [O] C [O] + [O] E [O] group [O] , [O] in [O] which [O] four [O] of [O] eight [O] dogs [O] experienced [O] ventricular [B] tachycardia [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "CASE REPORT : A 62 - year - old Taiwanese widow with bipolar disorder was diagnosed with hepatocellular carcinoma at age 60 .",
+        "output": "CASE [O] REPORT [O] : [O] A [O] 62 [O] - [O] year [O] - [O] old [O] Taiwanese [O] widow [O] with [O] bipolar [B] disorder [I] was [O] diagnosed [O] with [O] hepatocellular [B] carcinoma [I] at [O] age [O] 60 [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "After admission , the patient received a continuous intravenous infusion of 5 - FU ( 1000 mg / day ) , during which precordial pain with right bundle branch block occurred concomitantly with a high serum FBAL concentration of 1955 ng / ml .",
+        "output": "After [O] admission [O] , [O] the [O] patient [O] received [O] a [O] continuous [O] intravenous [O] infusion [O] of [O] 5 [B] - [I] FU [I] ( [O] 1000 [O] mg [O] / [O] day [O] ) [O] , [O] during [O] which [O] precordial [B] pain [I] with [O] right [B] bundle [I] branch [I] block [I] occurred [O] concomitantly [O] with [O] a [O] high [O] serum [O] FBAL [B] concentration [O] of [O] 1955 [O] ng [O] / [O] ml [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Intravenous propranolol after PPA also decreased blood pressure .",
+        "output": "Intravenous [O] propranolol [B] after [O] PPA [B] also [O] decreased [O] blood [O] pressure [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Mitral annuloplasty as a ventricular restoration method for the failing left ventricle : a pilot study .",
+        "output": "Mitral [O] annuloplasty [O] as [O] a [O] ventricular [O] restoration [O] method [O] for [O] the [O] failing [B] left [I] ventricle [I] : [O] a [O] pilot [O] study [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The ratio of glomerular tuft area to the area of Bowman ' s capsules ( GT / BC ) in the PAN group was significantly increased , but it was significantly lower in the PAN / temocapril group .",
+        "output": "The [O] ratio [O] of [O] glomerular [O] tuft [O] area [O] to [O] the [O] area [O] of [O] Bowman [O] ' [O] s [O] capsules [O] ( [O] GT [O] / [O] BC [O] ) [O] in [O] the [O] PAN [B] group [O] was [O] significantly [O] increased [O] , [O] but [O] it [O] was [O] significantly [O] lower [O] in [O] the [O] PAN [B] / [O] temocapril [B] group [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The 225 mg / m2 level was expanded for the phase II study since the highest level achieved ( 250 mg / m2 ) required modification because of nonhematologic toxicities ( arthralgia and sensory neuropathy ) .",
+        "output": "The [O] 225 [O] mg [O] / [O] m2 [O] level [O] was [O] expanded [O] for [O] the [O] phase [O] II [O] study [O] since [O] the [O] highest [O] level [O] achieved [O] ( [O] 250 [O] mg [O] / [O] m2 [O] ) [O] required [O] modification [O] because [O] of [O] nonhematologic [O] toxicities [B] ( [O] arthralgia [B] and [O] sensory [B] neuropathy [I] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Their cardiac tissues were processed for light microscopy , after which cardiomyocyte damage was evaluated according to Billingham ( in Cancer Treat Rep 62 ( 6 ) : 865 - 872 , 1978 ) .",
+        "output": "Their [O] cardiac [O] tissues [O] were [O] processed [O] for [O] light [O] microscopy [O] , [O] after [O] which [O] cardiomyocyte [B] damage [I] was [O] evaluated [O] according [O] to [O] Billingham [O] ( [O] in [O] Cancer [B] Treat [O] Rep [O] 62 [O] ( [O] 6 [O] ) [O] : [O] 865 [O] - [O] 872 [O] , [O] 1978 [O] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Pharmacological studies on a new dihydrothienopyridine calcium antagonist , S - 312 - d .",
+        "output": "Pharmacological [O] studies [O] on [O] a [O] new [O] dihydrothienopyridine [B] calcium [I] antagonist [O] , [O] S [B] - [I] 312 [I] - [I] d [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Coadministration of carvedilol decreased the extent of cellular vacuolization in cardiac myocytes and prevented the inhibitory effect of doxorubicin on mitochondrial respiration in both heart and liver .",
+        "output": "Coadministration [O] of [O] carvedilol [B] decreased [O] the [O] extent [O] of [O] cellular [O] vacuolization [O] in [O] cardiac [O] myocytes [O] and [O] prevented [O] the [O] inhibitory [O] effect [O] of [O] doxorubicin [B] on [O] mitochondrial [O] respiration [O] in [O] both [O] heart [O] and [O] liver [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The effects of i . v . bolus administration of cromakalim ( 1 - 10 micrograms / kg ) and pinacidil ( 3 - 100 micrograms / kg ) on large ( circumflex artery ) and small coronary arteries and on systemic hemodynamics were investigated in chronically instrumented conscious dogs and compared to those of nitroglycerin ( 0 . 03 - 10 micrograms / kg ) .",
+        "output": "The [O] effects [O] of [O] i [O] . [O] v [O] . [O] bolus [O] administration [O] of [O] cromakalim [B] ( [O] 1 [O] - [O] 10 [O] micrograms [O] / [O] kg [O] ) [O] and [O] pinacidil [B] ( [O] 3 [O] - [O] 100 [O] micrograms [O] / [O] kg [O] ) [O] on [O] large [O] ( [O] circumflex [O] artery [O] ) [O] and [O] small [O] coronary [O] arteries [O] and [O] on [O] systemic [O] hemodynamics [O] were [O] investigated [O] in [O] chronically [O] instrumented [O] conscious [O] dogs [O] and [O] compared [O] to [O] those [O] of [O] nitroglycerin [B] ( [O] 0 [O] . [O] 03 [O] - [O] 10 [O] micrograms [O] / [O] kg [O] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Multivariate analysis revealed an odds ratio of 2 . 5 - fold for LAG to develop AKI compared with HAG ( 95 % confidence interval 1 . 195 to 5 . 124 , P = 0 . 039 ) .",
+        "output": "Multivariate [O] analysis [O] revealed [O] an [O] odds [O] ratio [O] of [O] 2 [O] . [O] 5 [O] - [O] fold [O] for [O] LAG [O] to [O] develop [O] AKI [B] compared [O] with [O] HAG [O] ( [O] 95 [O] % [O] confidence [O] interval [O] 1 [O] . [O] 195 [O] to [O] 5 [O] . [O] 124 [O] , [O] P [O] = [O] 0 [O] . [O] 039 [O] ) [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Antibodies suggested to be of the IgM class were detected in all 3 patients with hematological disorders .",
+        "output": "Antibodies [O] suggested [O] to [O] be [O] of [O] the [O] IgM [O] class [O] were [O] detected [O] in [O] all [O] 3 [O] patients [O] with [O] hematological [B] disorders [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "After MRI , we found cerebral ischemic infarction .",
+        "output": "After [O] MRI [O] , [O] we [O] found [O] cerebral [B] ischemic [I] infarction [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "We used high - resolution MRI and surface - based computational image analyses to map regional abnormalities in the cortex , hippocampus , white matter , and ventricles in 22 human subjects who used MA and 21 age - matched , healthy controls .",
+        "output": "We [O] used [O] high [O] - [O] resolution [O] MRI [O] and [O] surface [O] - [O] based [O] computational [O] image [O] analyses [O] to [O] map [O] regional [O] abnormalities [B] in [I] the [I] cortex [I] , [I] hippocampus [I] , [I] white [I] matter [I] , [I] and [I] ventricles [I] in [O] 22 [O] human [O] subjects [O] who [O] used [O] MA [B] and [O] 21 [O] age [O] - [O] matched [O] , [O] healthy [O] controls [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The intracerebroventricular ( ICV ) administration of ouabain ( a Na ( + ) / K ( + ) - ATPase inhibitor ) in rats has been suggested to mimic some symptoms of human bipolar mania .",
+        "output": "The [O] intracerebroventricular [O] ( [O] ICV [O] ) [O] administration [O] of [O] ouabain [B] ( [O] a [O] Na [B] ( [O] + [O] ) [O] / [O] K [B] ( [O] + [O] ) [O] - [O] ATPase [O] inhibitor [O] ) [O] in [O] rats [O] has [O] been [O] suggested [O] to [O] mimic [O] some [O] symptoms [O] of [O] human [O] bipolar [B] mania [I] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "The episode was characterized by a vasculitic skin rash associated with large joint arthritis , pyrexia and parotiditis but no renal or pulmonary involvement .",
+        "output": "The [O] episode [O] was [O] characterized [O] by [O] a [O] vasculitic [B] skin [B] rash [I] associated [O] with [O] large [O] joint [O] arthritis [B] , [O] pyrexia [B] and [O] parotiditis [B] but [O] no [O] renal [O] or [O] pulmonary [O] involvement [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "CONCLUSIONS : Our current finding that animals in the CHX + Pilo group have a GAP43 - ir band in the IML , similar to that of controls , reinforces prior data on the blockade of MFS in these animals .",
+        "output": "CONCLUSIONS [O] : [O] Our [O] current [O] finding [O] that [O] animals [O] in [O] the [O] CHX [B] + [O] Pilo [B] group [O] have [O] a [O] GAP43 [O] - [O] ir [O] band [O] in [O] the [O] IML [O] , [O] similar [O] to [O] that [O] of [O] controls [O] , [O] reinforces [O] prior [O] data [O] on [O] the [O] blockade [O] of [O] MFS [O] in [O] these [O] animals [O] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    },
+    {
+        "instruction": "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.",
+        "input": "Response was not influenced by the initial neutrophil count , with a 62 % cure rate for 39 episodes associated with severe neutropenia .",
+        "output": "Response [O] was [O] not [O] influenced [O] by [O] the [O] initial [O] neutrophil [O] count [O] , [O] with [O] a [O] 62 [O] % [O] cure [O] rate [O] for [O] 39 [O] episodes [O] associated [O] with [O] severe [O] neutropenia [B] . [O]",
+        "history": [
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSulfasalazine - induced lupus erythematosus .",
+                "Sulfasalazine [B] - [O] induced [O] lupus [B] erythematosus [I] . [O]"
+            ],
+            [
+                "Given a sentence, label each chemical and disease entity using the BIO format. In BIO format, 'B' indicates the beginning of an entity, 'I' indicates the inside of an entity, and 'O' indicates a token not part of any entity. Label each word in the format: 'word [LABEL]'.\nSDRR was reduced only by alpha - methyldopa .",
+                "SDRR [O] was [O] reduced [O] only [O] by [O] alpha [B] - [I] methyldopa [I] . [O]"
+            ]
+        ]
+    }
+]
