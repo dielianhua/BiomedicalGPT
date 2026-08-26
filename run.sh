@@ -90,4 +90,4 @@ python -m vllm.entrypoints.openai.api_server \
 
 echo "9.evaluate"
 
-python evaluation_medinst32.py  --name result_"$name" --dir . --model $path/$name --key YOUR_SECRET_KEY  --base_url "http://localhost:8000/v1" >> logs/log_$name
+python evaluation.py  --name result_"$name" --dir . --model $path/$name --key YOUR_SECRET_KEY  --base_url "http://localhost:8000/v1" >> logs/log_$name
