@@ -1,0 +1,11 @@
+{
+  "macro": 86.82,
+  "n_tasks": 1,
+  "per_source": {
+    "SciFact": {
+      "f1": 86.82,
+      "n": 209,
+      "metric": "cls"
+    }
+  }
+}

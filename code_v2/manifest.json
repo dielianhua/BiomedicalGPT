@@ -1,0 +1,274 @@
+{
+  "description": "3 models x mixed9 (20 tasks) — data, predictions, results, code",
+  "models": {
+    "plain": {
+      "train": "data/train/v2_plain_27k.json",
+      "macro_319": 72.51,
+      "macro_209": 72.32
+    },
+    "p3": {
+      "train": "data/train/v2_p3_27k.json",
+      "macro_319": 72.11,
+      "macro_209": 71.87
+    },
+    "ds10k_v1match": {
+      "train": "data/train/v2_ds10k_v1match_10k.json",
+      "macro_319": 71.36,
+      "macro_209": 71.16
+    }
+  },
+  "test": {
+    "file": "data/test/v2_test_mixed9_4800.json",
+    "n": 4800,
+    "scifact_319": 319,
+    "scifact_209_idx": "data/test/v2_scifact209_idx.json"
+  },
+  "verified": {
+    "03_eval.py on predictions/ds10k_v1match": "legacy 71.36 / typed 71.44 (bit-equal to results/)",
+    "03_eval.py on predictions/plain": "legacy 72.51 / typed 72.83 (all 20 tasks equal)",
+    "04_make_table.py": "reproduces every cell of tables/3models_mixed9_20tasks_final.md"
+  },
+  "file_count": 48,
+  "files": {
+    "README.md": {
+      "bytes": 8899,
+      "md5": "5c8e54e19c9d7bd71852298d1b44b857",
+      "records": null
+    },
+    "requirements.txt": {
+      "bytes": 287,
+      "md5": "7cc5b5d1a89e94f4581c2202393a3605",
+      "records": null
+    },
+    "data/SOURCES.md": {
+      "bytes": 9539,
+      "md5": "45d14527b4555c3329d27e4da0efc403",
+      "records": null
+    },
+    "data/test/v2_scifact209_idx.json": {
+      "bytes": 1466,
+      "md5": "8f3ad3fef1b85c8c234da7438dd31f5d",
+      "records": 209
+    },
+    "data/test/v2_test_mixed9_4800.json": {
+      "bytes": 13234983,
+      "md5": "b9ed9f0bf3c3d5b37341ae4a0b3d8654",
+      "records": 4800
+    },
+    "data/test/v2_test_plain_4800.json": {
+      "bytes": 13039139,
+      "md5": "3bd2aae33f55db0e6b4102a74d09c8f9",
+      "records": 4800
+    },
+    "data/train/v2_ds10k_v1match_10k.json": {
+      "bytes": 27292045,
+      "md5": "24a8dfd3f88166448d94d3c20499b1fa",
+      "records": 10000
+    },
+    "data/train/v2_p3_27k.json": {
+      "bytes": 48857328,
+      "md5": "5cd4e4e4821a7bd94cf7a1dcca75a10e",
+      "records": 27673
+    },
+    "data/train/v2_plain_27k.json": {
+      "bytes": 45990893,
+      "md5": "ab0eafd4bbf005b824d838d2743bbfc1",
+      "records": 27673
+    },
+    "docs/data_fields.md": {
+      "bytes": 5031,
+      "md5": "44738b1cce9089e8c390a46cecb1cce3",
+      "records": null
+    },
+    "docs/data_fields.xlsx": {
+      "bytes": 7244,
+      "md5": "30da74e64a61f8929554eda9903822a1",
+      "records": null
+    },
+    "docs/dataset.md": {
+      "bytes": 16539,
+      "md5": "46676bb22e07bbb1dee1e6a0053000e9",
+      "records": null
+    },
+    "docs/pipeline.drawio": {
+      "bytes": 11157,
+      "md5": "9eeb12378080eb11f5c473668aa68ceb",
+      "records": null
+    },
+    "docs/pipeline.md": {
+      "bytes": 4197,
+      "md5": "bfc7900706cc79c05f6c9ce84a20c2b7",
+      "records": null
+    },
+    "docs/pipeline.svg": {
+      "bytes": 7190,
+      "md5": "63a5dadc5da63dfd27ac16eef405b245",
+      "records": null
+    },
+    "predictions/ds10k_v1match/preds_legacy.json": {
+      "bytes": 3063405,
+      "md5": "5a277a287be59c26a97ccdce3325c1f3",
+      "records": 4800
+    },
+    "predictions/p3/preds_legacy.json": {
+      "bytes": 3067045,
+      "md5": "bf3f328180616d2a2e74ccbb2bc3cfda",
+      "records": 4800
+    },
+    "predictions/plain/preds_legacy.json": {
+      "bytes": 3064305,
+      "md5": "ebac8b27d9464e1d36b394ee29e1372d",
+      "records": 4800
+    },
+    "results/ds10k_v1match/metrics_legacy.json": {
+      "bytes": 1785,
+      "md5": "a67653c86137e19c3f8aae00643ccfdc",
+      "records": null
+    },
+    "results/ds10k_v1match/metrics_typed.json": {
+      "bytes": 4678,
+      "md5": "5aad2ec51a37dc833693202d8f41a46d",
+      "records": null
+    },
+    "results/p3/metrics_legacy.json": {
+      "bytes": 1786,
+      "md5": "bdac2ee795cc2f13d1ed6534fe38264a",
+      "records": null
+    },
+    "results/p3/metrics_typed.json": {
+      "bytes": 4681,
+      "md5": "debb58aaa6815c2f9126ebfa2c215087",
+      "records": null
+    },
+    "results/plain/metrics_legacy.json": {
+      "bytes": 1786,
+      "md5": "5a355a141541c764879c506016e9a8b7",
+      "records": null
+    },
+    "results/plain/metrics_typed.json": {
+      "bytes": 4594,
+      "md5": "eaa27a527dd17fdf660be7456662b7ed",
+      "records": null
+    },
+    "scripts/01_train.sh": {
+      "bytes": 2534,
+      "md5": "8656a2f9476c1527a84a282d1fa951ca",
+      "records": null
+    },
+    "scripts/02_infer.sh": {
+      "bytes": 2512,
+      "md5": "508f38c19de610f7deca9ab1b8582f0f",
+      "records": null
+    },
+    "scripts/03_eval.py": {
+      "bytes": 1745,
+      "md5": "1f7bb625ddfc542ccf17e57c1511f027",
+      "records": null
+    },
+    "scripts/04_make_table.py": {
+      "bytes": 3388,
+      "md5": "8edd41eab46d40e3093a00dcb6b81020",
+      "records": null
+    },
+    "scripts/build_ds10k_v1match.py": {
+      "bytes": 5944,
+      "md5": "75ffbe7cb25b23436aef72c2d25efcd5",
+      "records": null
+    },
+    "scripts/md2xlsx.py": {
+      "bytes": 3923,
+      "md5": "eb430e6c17450f751be9aa5230a8803d",
+      "records": null
+    },
+    "scripts/lib/convert_typed_to_legacy.py": {
+      "bytes": 5886,
+      "md5": "97cc00111067f015f50ddd5e4c91de0b",
+      "records": null
+    },
+    "scripts/lib/eval_original.py": {
+      "bytes": 4608,
+      "md5": "01d512158632ce5f2cc99d518d4cc7c5",
+      "records": null
+    },
+    "scripts/lib/eval_typed.py": {
+      "bytes": 7613,
+      "md5": "ef8723e005a5e3778b342ad0506e79a1",
+      "records": null
+    },
+    "scripts/lib/gen_predictions.py": {
+      "bytes": 6351,
+      "md5": "f649a98ddf4fcb9a590818baeee0f73e",
+      "records": null
+    },
+    "scripts/lib/original_metrics.py": {
+      "bytes": 18051,
+      "md5": "29449e9a5c861ae3489d223a4e63c7d9",
+      "records": null
+    },
+    "scripts/train/11fintune_all_lang_med.sh": {
+      "bytes": 6315,
+      "md5": "be73c09bd39ef962d0396b45560f131a",
+      "records": null
+    },
+    "scripts/train/finetune_newmed.py": {
+      "bytes": 19127,
+      "md5": "5b515448b093786e5085ff28ffc9aba9",
+      "records": null
+    },
+    "scripts/train/merge_model.py": {
+      "bytes": 1720,
+      "md5": "d796cb3d7e8c6f658a38d077ef1474b7",
+      "records": null
+    },
+    "scripts/train/utils/__init__.py": {
+      "bytes": 0,
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "records": null
+    },
+    "scripts/train/utils/callbacks.py": {
+      "bytes": 1716,
+      "md5": "07f4054bb46e7485da099bb0c8a76077",
+      "records": null
+    },
+    "scripts/train/utils/predict_final.py": {
+      "bytes": 4466,
+      "md5": "e58db5e1c36cddd8a1c5d1b01c0ab112",
+      "records": null
+    },
+    "scripts/train/utils/prompter.py": {
+      "bytes": 1724,
+      "md5": "b0b980b74998fb60b71370245d03bbfa",
+      "records": null
+    },
+    "scripts/train/utils/prompter_fewshot.py": {
+      "bytes": 1806,
+      "md5": "5e36eb23c2f3d9dede56c634fd8b0068",
+      "records": null
+    },
+    "scripts/__pycache__/md2xlsx.cpython-313.pyc": {
+      "bytes": 6900,
+      "md5": "338db0673640fe927223503c57950ca2",
+      "records": null
+    },
+    "tables/3models_mixed9_20tasks_final.md": {
+      "bytes": 1058,
+      "md5": "1549e509690da6e7a5eb46e3b1fdce70",
+      "records": null
+    },
+    "tables/3models_mixed9_20tasks_final.xlsx": {
+      "bytes": 11204,
+      "md5": "60aef0059fb8fcfae6d9d2ed8919c67f",
+      "records": null
+    },
+    "tables/analysis.md": {
+      "bytes": 4804,
+      "md5": "06f7d880ab8f97e2d1c5f57f50e5a291",
+      "records": null
+    },
+    "tables/report.md": {
+      "bytes": 4354,
+      "md5": "56052878767e7022de3664b2d13721a6",
+      "records": null
+    }
+  }
+}

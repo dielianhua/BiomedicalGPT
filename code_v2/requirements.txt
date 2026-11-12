@@ -1,0 +1,14 @@
+# Scoring / table rebuilding (CPU only) — needs numpy, scikit-learn, tqdm
+numpy>=1.24
+scikit-learn>=1.3
+tqdm>=4.65
+
+# Inference (02_infer.sh): vLLM server + stdlib HTTP client
+# vllm>=0.6
+
+# Training (01_train.sh)
+# torch>=2.1
+# transformers>=4.40
+# peft>=0.10
+# datasets
+# accelerate

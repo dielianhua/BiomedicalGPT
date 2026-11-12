@@ -1,0 +1,106 @@
+{
+  "macro": 72.51,
+  "n_tasks": 20,
+  "per_source": {
+    "AnEM": {
+      "f1": 58.18,
+      "n": 137,
+      "metric": "entity"
+    },
+    "AnEM-COREF": {
+      "f1": 100.0,
+      "n": 14,
+      "metric": "entity"
+    },
+    "BC5CDR": {
+      "f1": 93.14,
+      "n": 100,
+      "metric": "bio"
+    },
+    "BC5CDR-RE": {
+      "f1": 12.12,
+      "n": 500,
+      "metric": "entity"
+    },
+    "BioInfer-RE": {
+      "f1": 39.91,
+      "n": 142,
+      "metric": "entity"
+    },
+    "BioNLP-2009": {
+      "f1": 87.6,
+      "n": 260,
+      "metric": "entity"
+    },
+    "BioNLP-2011-GE": {
+      "f1": 86.98,
+      "n": 100,
+      "metric": "entity"
+    },
+    "BioNLP-2011-ID": {
+      "f1": 76.38,
+      "n": 117,
+      "metric": "entity"
+    },
+    "BioNLP-2011-REL": {
+      "f1": 87.49,
+      "n": 260,
+      "metric": "entity"
+    },
+    "BioNLP-2013-CG": {
+      "f1": 81.51,
+      "n": 200,
+      "metric": "entity"
+    },
+    "BioNLP-2013-GE": {
+      "f1": 75.27,
+      "n": 256,
+      "metric": "entity"
+    },
+    "BioNLP-2013-GRO": {
+      "f1": 42.88,
+      "n": 100,
+      "metric": "entity"
+    },
+    "BioRED": {
+      "f1": 84.75,
+      "n": 100,
+      "metric": "entity"
+    },
+    "MLEE-COREF": {
+      "f1": 99.12,
+      "n": 113,
+      "metric": "entity"
+    },
+    "MLEE-EE": {
+      "f1": 18.2,
+      "n": 87,
+      "metric": "entity"
+    },
+    "MedDialog": {
+      "f1": 100.0,
+      "n": 122,
+      "metric": "cls"
+    },
+    "MedQA": {
+      "f1": 61.51,
+      "n": 1273,
+      "metric": "em"
+    },
+    "NCBI-disease": {
+      "f1": 92.78,
+      "n": 100,
+      "metric": "bio"
+    },
+    "PubMedQA-labeled": {
+      "f1": 59.77,
+      "n": 500,
+      "metric": "cls"
+    },
+    "SciFact": {
+      "f1": 92.56,
+      "n": 319,
+      "metric": "cls"
+    }
+  }
+}

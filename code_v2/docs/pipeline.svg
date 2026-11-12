@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 950" width="680" height="950" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#333333"/></marker></defs>
+<rect width="680" height="950" fill="#FFFFFF"/>
+<path d="M340.0 68.0L340.0 100.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M340.0 148.0L340.0 180.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M470.0 204.0L435.0 204.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)" stroke-dasharray="5,4"/>
+<path d="M340.0 228.0L340.0 262.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M340.0 310.0L340.0 331.0L140.0 331.0L140.0 352.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<text x="240.0" y="326.0" font-size="10" fill="#3D3D3D" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">training branch</text>
+<path d="M340.0 310.0L340.0 331.0L490.0 331.0L490.0 352.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<text x="415.0" y="326.0" font-size="10" fill="#3D3D3D" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">evaluation branch</text>
+<path d="M140.0 400.0L140.0 436.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M140.0 480.0L140.0 524.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M140.0 576.0L140.0 620.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M490.0 400.0L490.0 430.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M490.0 490.0L490.0 524.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M490.0 576.0L490.0 620.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M140.0 664.0L140.0 685.0L340.0 685.0L340.0 706.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M340.0 750.0L340.0 788.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M490.0 664.0L490.0 819.0L470.0 819.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<path d="M340.0 850.0L340.0 888.0" fill="none" stroke="#333333" stroke-width="1.1" marker-end="url(#ar)"/>
+<rect x="210" y="20" width="260" height="48" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="48.2" font-size="12" fill="#111111" text-anchor="middle">Biomedical source corpora</text>
+<rect x="210" y="100" width="260" height="48" fill="#E9EEF5" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="128.2" font-size="12" fill="#111111" text-anchor="middle">Annotation format detection</text>
+<rect x="210" y="180" width="260" height="48" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="201.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Typed annotation corpus</text>
+<text x="340.0" y="215.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">(canonical structure)</text>
+<rect x="435" y="180" width="205" height="48" fill="#FFFFFF" stroke="#333333" stroke-width="1.1" stroke-dasharray="5,4"/>
+<text x="537.5" y="201.2" font-size="12" fill="#454545" text-anchor="middle">Original annotation</text>
+<text x="537.5" y="215.2" font-size="12" fill="#454545" text-anchor="middle">strings retained</text>
+<rect x="210" y="262" width="260" height="48" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="283.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Instruction family bank</text>
+<text x="340.0" y="297.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">(generated programmatically)</text>
+<rect x="20" y="352" width="240" height="48" fill="#E9EEF5" stroke="#333333" stroke-width="1.1"/>
+<text x="140.0" y="373.2" font-size="12" fill="#111111" text-anchor="middle">Assign one phrasing</text>
+<text x="140.0" y="387.2" font-size="12" fill="#111111" text-anchor="middle">per item</text>
+<rect x="370" y="352" width="240" height="48" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="490.0" y="373.2" font-size="12" fill="#111111" text-anchor="middle">Fixed evaluation</text>
+<text x="490.0" y="387.2" font-size="12" fill="#111111" text-anchor="middle">item set</text>
+<rect x="20" y="436" width="240" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="140.0" y="462.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Multi-style training pool</text>
+<rect x="370" y="430" width="240" height="60" fill="#E9EEF5" stroke="#333333" stroke-width="1.1"/>
+<text x="490.0" y="450.2" font-size="12" fill="#111111" text-anchor="middle">Rotate phrasings across items</text>
+<text x="490.0" y="464.2" font-size="12" fill="#111111" text-anchor="middle">(unseen and compressed</text>
+<text x="490.0" y="478.2" font-size="12" fill="#111111" text-anchor="middle">registers included)</text>
+<rect x="20" y="524" width="240" height="52" fill="#E9EEF5" stroke="#333333" stroke-width="1.1"/>
+<text x="140.0" y="547.2" font-size="12" fill="#111111" text-anchor="middle">Difficulty-ranked subsampling</text>
+<text x="140.0" y="561.2" font-size="12" fill="#111111" text-anchor="middle">with per-source quotas</text>
+<rect x="370" y="524" width="240" height="52" fill="#E9EEF5" stroke="#333333" stroke-width="1.1"/>
+<text x="490.0" y="547.2" font-size="12" fill="#111111" text-anchor="middle">Retain items whose evidence</text>
+<text x="490.0" y="561.2" font-size="12" fill="#111111" text-anchor="middle">field is populated</text>
+<rect x="20" y="620" width="240" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="140.0" y="646.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Selected training subset</text>
+<rect x="370" y="620" width="240" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="490.0" y="646.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Reported evaluation set</text>
+<rect x="210" y="706" width="260" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="732.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Instruction-tuned model</text>
+<rect x="210" y="788" width="260" height="62" fill="#E9EEF5" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="809.2" font-size="12" fill="#111111" text-anchor="middle">Dual-metric scoring</text>
+<text x="340.0" y="823.2" font-size="12" fill="#111111" text-anchor="middle">(structured answer and</text>
+<text x="340.0" y="837.2" font-size="12" fill="#111111" text-anchor="middle">original format)</text>
+<rect x="210" y="888" width="260" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="1.1"/>
+<text x="340.0" y="912.2" font-size="12" fill="#111111" text-anchor="middle" font-weight="600">Reported results</text>
+</svg>
