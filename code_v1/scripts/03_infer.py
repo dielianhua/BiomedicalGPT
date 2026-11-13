@@ -22,7 +22,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 def build_messages(x, use_history):
     """按论文评测方式构造 messages。
 
-    test_4800.json 的 `history` 是每个任务的 2-shot 示例：
+    v1_test_4800.json 的 `history` 是每个任务的 2-shot 示例：
         [[q1, a1], [q2, a2]]
     论文评测用的是 in-context 设定，之前只喂 instruction+input（0-shot），
     会系统性低估模型（尤其零样本模型，实测低 30 分左右）。

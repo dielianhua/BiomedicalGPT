@@ -1,11 +1,11 @@
 # Source corpora, licences and references
 
 All 20 source corpora of this dataset, with their task type, accession URL, licence and the
-corresponding entry in the manuscript's reference list. Each training record also carries a `source_url` field; this table is the single
-authority for those URLs.
+corresponding entry in the manuscript's reference list. Every released record, in both the training
+and test files, carries a `source_url` field; this table is the single authority for those URLs.
 
 `Train` and `Test` are the number of items contributed to `data/train/v1_DS_27k.json` (27,673) and
-`data/test/test_4800.json` (4,800) respectively.
+`data/test/v1_test_4800.json` (4,800) respectively.
 
 | Source dataset   | Task     | Train      | Test      | Accession URL                                           | Licence                                                  | Ref. |
 | ---------------- | -------- | ----------:| ---------:| ------------------------------------------------------- | -------------------------------------------------------- | ----:|

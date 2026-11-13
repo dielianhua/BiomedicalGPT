@@ -1,8 +1,9 @@
 # Source corpora, licences and references
 
 Source corpora of the v2 dataset, with their task type, accession URL, licence and the
-corresponding entry in the manuscript's reference list. Each training record carries a
-`source_url` field; the `source` field gives the same corpus name used in the table below.
+corresponding entry in the manuscript's reference list. Every released record, in both the training
+and test files, carries a `source_url` field; the `source` field gives the same corpus name used in
+the table below.
 
 `Train` and `Test` are the number of items contributed to the full training pool (27,673) and
 to the mixed9 evaluation file (4,800) respectively.

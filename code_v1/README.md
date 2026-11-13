@@ -21,7 +21,7 @@ code_v1/
 │   │   ├── v1_DS_20k.json          20,000 samples
 │   │   └── v1_DS_27k.json          27,673 samples (full pool)
 │   └── test/
-│       ├── test_4800.json       20-task test set (4,800 samples, see §4)
+│       ├── v1_test_4800.json    20-task test set (4,800 samples, see §4)
 │       └── test_scifact_209.json  SciFact evidence-bearing subset (209 samples)
 ├── scripts/
 │   ├── 01_ds_score.py           DS scoring (instruction-conditioned loss)
@@ -67,8 +67,8 @@ pip install torch transformers peft datasets accelerate \
 
 The 20 source corpora, their task type, accession URL, licence and the matching entry in the
 manuscript's reference list are documented once in **[`data/SOURCES.md`](data/SOURCES.md)**.
-Each training record carries a `source_url` field alongside `original_file`; both resolve to
-the corpus names used in that table.
+Every released record - in both the training and test files - carries a `source_url` field
+alongside `original_file`; both resolve to the corpus names used in that table.
 
 **Note**: the MLEE corpora are released under **CC BY-NC-SA 3.0**, which prohibits commercial
 use; anyone reusing this dataset must comply with that restriction. All other corpora are used
@@ -81,7 +81,7 @@ licences only and grants no additional rights.
 
 | File                    | Samples   | Description                                                                                                                                                                                                                    |
 | ----------------------- | ---------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `test_4800.json`        | **4,800** | Full 20-task test set (the original 5,670 items after de-duplication and format unification). Each item has `instruction` / `input` / `output` / `history`.                                                                    |
+| `v1_test_4800.json`     | **4,800** | Full 20-task test set (the original 5,670 items after de-duplication and format unification). Each item has `instruction` / `input` / `output` / `history`.                                                                    |
 | `test_scifact_209.json` | **209**   | SciFact subset restricted to evidence-bearing items (138 Supports + 71 Refutes). The 110 items with an empty `Evidence:` field are excluded because their gold label is invariably `Neutral`, which constitutes label leakage. |
 
 The `history` field holds **per-task, fixed 2-shot in-context examples**, formatted as

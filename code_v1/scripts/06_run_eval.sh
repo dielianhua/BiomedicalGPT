@@ -38,7 +38,7 @@ for kv in "$@"; do
 done
 
 case "$TEST" in
-  test4800) TEST_FILE="$ROOT/data/test/test_4800.json"; [ -n "$MAXTOK" ] || MAXTOK=1024 ;;
+  test4800) TEST_FILE="$ROOT/data/test/v1_test_4800.json"; [ -n "$MAXTOK" ] || MAXTOK=1024 ;;
   sci209)   TEST_FILE="$ROOT/data/test/test_scifact_209.json"; [ -n "$MAXTOK" ] || MAXTOK=128 ;;
   *) echo "未知 test: $TEST（test4800 / sci209）"; exit 1 ;;
 esac

@@ -74,8 +74,8 @@ code_v2/
 
 The full description — instruction families, prompt examples for all nine phrasings, per-task and
 per-family distributions, and the legacy-to-typed conversion rules — is in **`docs/dataset.md`**.
-The summary below covers only what the table needs. Each training record carries a `source_url`
-field; `data/SOURCES.md` is the single authority for those URLs.
+The summary below covers only what the table needs. Every released record, in both the training and
+test files, carries a `source_url` field; `data/SOURCES.md` is the single authority for those URLs.
 
 **Test set.** `v2_test_mixed9_4800.json` is 4,800 items over 20 tasks; every item is rendered with one of
 nine instruction families (525–544 per family) in a fixed mixed order. Two SciFact views are reported:
